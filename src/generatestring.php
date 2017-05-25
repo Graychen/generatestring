@@ -1,5 +1,5 @@
 <?php
-namespace generatestring;
+namespace graychen\generatestring;
 /**
  * * @brief 字符生成器
  * * author Graychen
