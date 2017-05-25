@@ -1,0 +1,14 @@
+{
+    "name": "graychen/generatestring",
+    "description": "generate a little string",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "陈家辉",
+            "email": "chenjiahui@haolianluo.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
