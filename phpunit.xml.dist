@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="tests/bootstrap.php"
+<phpunit bootstrap="./tests/bootstrap.php"
          colors="true"
          verbose="true"
          convertErrorsToExceptions="true"
@@ -7,14 +7,15 @@
          convertWarningsToExceptions="true"
          processIsolation="false"
          stopOnFailure="false">
-     <testsuites>
-         <testsute name="Test Suitem">
-             <directory>./tests</directory>
-         </testsute>
-     </testsuites>
-     <filter>
-         <whitelist>
-             <directory suffix=".php">./src/</directory>
-         </whitelist>
-     </filter>
+    <testsuites>
+        <testsuite name="Test Suite">
+            <directory>./tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src</directory>
+            <directory suffix=".php">./tests</directory>
+        </whitelist>
+    </filter>
 </phpunit>
